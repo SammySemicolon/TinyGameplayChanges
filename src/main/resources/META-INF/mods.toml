@@ -1,0 +1,18 @@
+modLoader = "javafml"
+loaderVersion = "[39,)"
+license = "All rights reserved"
+[[mods]]
+logoFile = "icon.png"
+modId = "tgc"
+version = "${file.jarVersion}"
+displayName = "Tiny Gameplay Changes"
+authors = "Sammy;, Trivaxy"
+description = '''
+A mod with lots of tiny gameplay changes
+'''
+[[dependencies.tgc]]
+modId = "forge"
+mandatory = true
+versionRange = "[40.2,)"
+ordering = "NONE"
+side = "BOTH"
