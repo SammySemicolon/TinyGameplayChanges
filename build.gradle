@@ -102,6 +102,10 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    maven {
+        name 'Curios maven'
+        url = "https://maven.theillusivec4.top/"
+    }
 
 }
 
