@@ -3,13 +3,13 @@ package team.lodestar.tgc;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 
-import static team.lodestar.tgc.StatusMod.MODID;
+import static team.lodestar.tgc.TinyGameplayChangesMod.MODID;
 
 @Mod(MODID)
-public class StatusMod {
-	public static final String MODID = "status";
+public class TinyGameplayChangesMod {
+	public static final String MODID = "tgc";
 
-	public StatusMod() {
+	public TinyGameplayChangesMod() {
 	}
 
 	public static ResourceLocation path(String path) {

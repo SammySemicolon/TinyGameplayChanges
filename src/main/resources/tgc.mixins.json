@@ -1,11 +1,12 @@
 {
   "required": true,
-  "package": "com.sammy.status.mixin",
+  "package": "team.lodestar.tgc.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "status.refmap.json",
+  "refmap": "tgc.refmap.json",
   "mixins": [
   ],
   "client": [
+    "GuiMixin"
   ],
   "injectors": {
     "defaultRequire": 1
